@@ -31,7 +31,7 @@ export default function App() {
   // --- API Helpers ---
 
   const callGemini = async (prompt) => {
-    const key = "AIzaSyBD8frmhK5gLClCdNAX4E7ryq2rzbMaFwY"; // System provides key
+    const key = "AIzaSyCFIJBZnuEWXTOtwZKABpKiSLZq4HXeXjc"; // System provides key
     if (!key) {
       // Fallback for demo if no key provided by environment (should not happen in prod)
       console.warn("API Key not found in environment.");
